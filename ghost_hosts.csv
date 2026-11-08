@@ -1,0 +1,4 @@
+ID,Host,IP,Estat
+1,ghost-server-01,192.168.1.10,Infectat
+2,ghost-server-02,192.168.1.11,Sospitós
+3,ghost-server-03,192.168.1.12,Segur
