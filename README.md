@@ -10,3 +10,11 @@ aplicao hotfix de seguridad Halloween
 - El Agente 3 ha creado el panel `dashboard.md`.
 - Se han abierto y fusionado las primeras Pull Requests.
 - Se ha publicado la versión `v0.1-alpha`.
+
+### Contrato de datos entre agentes
+
+El Agente 1 define la estructura del archivo `data/ghost_hosts.csv`, que contiene los campos ID, Host, IP, Estat y Port_Infectat.
+
+El Agente 2 utiliza este archivo como entrada para desarrollar el script `exorcism.ps1`, encargado de identificar los puertos críticos y descartar los no críticos.
+
+De esta forma, ambos agentes trabajan con una estructura de datos común.
